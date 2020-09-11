@@ -7,7 +7,6 @@ import {
   CardContent,
   Grid,
   Typography,
-  StylesProvider,
 } from "@material-ui/core";
 
 const Cards = (props) => {
