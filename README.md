@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+LIVE Link = https://abdullahch-covid-19-tracker.netlify.app/ 
+
+Shout Out to Javascript Mastery for awesome projects ! (link = https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A)
+
 ## Available Scripts
 
 In the project directory, you can run:
