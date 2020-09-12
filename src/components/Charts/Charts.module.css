@@ -3,4 +3,5 @@
   justify-content: center;
   width: 90%;
   background-color: white;
+  flex-direction: column;
 }

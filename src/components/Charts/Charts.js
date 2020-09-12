@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { apiDailyData } from "../../api";
 import { Line, Bar, Doughnut } from "react-chartjs-2";
 import styles from "./Charts.module.css";
-import { blue } from "@material-ui/core/colors";
 
 const Charts = ({ data, country }) => {
   const [apiDataaDaily, setApiDataaDaily] = useState([]);
@@ -93,8 +92,9 @@ const Charts = ({ data, country }) => {
 
   return (
     <div className={styles.container}>
-      {country ? doughnutChart  
-        : lineChart}
+      {country ? doughnutChart : lineChart}
+      <br/>
+      {country ? barChart: null}
     </div>
   );
 };
