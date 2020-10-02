@@ -11,29 +11,26 @@ export const apiData = async (country) => {
     const {
       data: { confirmed, recovered, deaths, lastUpdate },
     } = await axios.get(customUrl);
-
     return { confirmed, recovered, deaths, lastUpdate };
   } catch (error) {
     console.log(error);
-    alert("API's not responding my calls");
   }
 };
 
 export const apiDailyData = async () => {
   try {
     const { data } = await axios.get(`${url}/daily`);
-    
-
+    console.log("Daily data isssssssssssssssss", data);
     const apiDataDaily = data.map((data) => ({
       confirmed: data.confirmed.total,
       deaths: data.deaths.total,
       reportDate: data.reportDate,
     }));
+    
 
     return apiDataDaily;
   } catch (error) {
     console.log(error);
-    alert("API's not responding my calls");
   }
 };
 
@@ -48,6 +45,5 @@ export const apiCountries = async () => {
     return countriesName;
   } catch (error) {
     console.log(error);
-    alert("Country API's not responding my calls");
   }
 };
