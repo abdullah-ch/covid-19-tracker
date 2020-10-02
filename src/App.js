@@ -10,11 +10,14 @@ import styles from "./App.module.css";
 const App = () => {
   const [apiDataa, setApiDataa] = useState("");
   const [apiCountryChange, setApiCountryChange] = useState("");
+  
+
 
   useEffect(() => {
     async function fetchData() {
       const data = await apiData();
       setApiDataa(data);
+     
     }
     fetchData();
   }, []);
