@@ -1,6 +1,6 @@
-.container{
-    background-color: whitesmoke;
-    font-size: 30px;
-    margin-bottom: 0.5px !important;
-    
+.container {
+  background-color: white;
+  font-size: 30px;
+  margin-bottom: 0.5px !important;
+  margin: 10px;
 }

@@ -13,18 +13,16 @@ body {
 .heading {
   color: antiquewhite;
   font-size: 50px;
+  font-family: monospace;
   justify-content: center;
   align-items: center;
 }
-  
 
-@media(max-width: 770px){
-  .container{
+@media (max-width: 770px) {
+  .container {
     margin: 0 10px;
   }
-  .heading{
+  .heading {
     margin-left: 20%;
-
   }
-
 }

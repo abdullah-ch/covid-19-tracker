@@ -26,7 +26,7 @@ const CountryPicker = ({ handleCountryChange }) => {
             handleCountryChange(event.target.value);
           }}
         >
-          <option value="">Global</option>
+          <option value="" style={{ padding: ' 0 10px!important; ' }}>Global</option>
           {apiCountry.map((name) => (
             <option value={name.name}>{name.name}</option>
           ))}
