@@ -17,6 +17,8 @@
 - Show you current stats of Active, Recovered & Deaths of any country.
 - Displays the stats in Graphsn
 
+- May Allah save us all from Covid.
+
 ## 🔑 LICENSE
 
 - MIT
