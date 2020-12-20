@@ -15,7 +15,7 @@
 ## 🚀 FEATURES
 
 - Show you current stats of Active, Recovered & Deaths of any country.
-- Displays the stats in Graphsn
+- Displays the stats in Graphs
 
 - May Allah save us all from Covid.
 
