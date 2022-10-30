@@ -21,7 +21,6 @@ export const apiData = async (country) => {
 export const apiDailyData = async () => {
   try {
     const { data } = await axios.get(`${url}/daily`);
-    console.log('Daily data isssssssssssssssss', data);
     const apiDataDaily = data.map((data) => ({
       confirmed: data.confirmed.total,
       deaths: data.deaths.total,
