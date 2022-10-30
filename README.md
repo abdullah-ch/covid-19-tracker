@@ -14,7 +14,7 @@
 
 ## 🚀 FEATURES
 
-- Show you current stats of Active, Recovered & Deaths of any country.
+- Show you current statistics of Active, Recovered & Deaths of any country.
 - Displays the stats interms of Graphs
 
 ## 🔑 LICENSE
